@@ -2,47 +2,44 @@
 ````markdown
 # 🖤 PixelInspector-Pro - Advanced Pixel Analyzer
 
-
-
----
-
-## ✨ Features
-
-- **Modern Dark UI** – Eye-friendly and professional interface
-- **Image Loading** – Supports all common formats (PNG, JPG, BMP, TIFF)
-- **Precision Zoom Controls** – Zoom in, out, and reset with ease
-- **Pixel Selection** – Click on the image or enter coordinates manually
-- **Detailed Pixel Info** – Shows coordinates, RGBA values, and HEX code
-- **Advanced Filtering** – Filter pixels by specific RGBA channels
-- **CSV Export** – Save selected pixel data to CSV
+**PixelInspector-Pro** is a powerful pixel-level image analysis tool with a sleek, modern dark UI. Designed for developers, designers, and digital forensic analysts, it offers a precise and interactive way to inspect pixel data with ease and accuracy.
 
 ---
 
-## ⚙️ Requirements
+## ✨ Key Features
 
-- Python 3.7 or later  
-- Required libraries:
+- 🎨 **Modern Dark Theme** – Eye-comfortable, stylish, and professional interface  
+- 🖼️ **Image Format Support** – Load PNG, JPG, BMP, TIFF, and more  
+- 🔍 **Precision Zoom Tools** – Zoom in/out or reset with one click  
+- 🎯 **Pixel Selection Modes** – Click directly or manually enter coordinates  
+- 🧪 **Pixel Detail Viewer** – Display RGBA values, HEX code, and location  
+- 🧩 **Advanced Filtering** – Filter image pixels by RGBA channel conditions  
+- 📄 **CSV Export** – Export selected pixel data for external analysis
+
+---
+
+
   ```bash
-  pip install PySide6 numpy```
+  pip install PySide6 numpy
 ````
 
+---
 
+## 🚀 Getting Started
 
-## 🚀 How to Run
-
-1. Clone the repository:
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/your-username/PixelInspector-Pro.git
    ```
 
-2. Navigate to the project directory:
+2. **Navigate to the project folder:**
 
    ```bash
    cd PixelInspector-Pro
    ```
 
-3. Launch the application:
+3. **Run the application:**
 
    ```bash
    python rgba_analyzer.py
@@ -50,35 +47,34 @@
 
 ---
 
-## 🖱️ Usage Guide
+## 🖱️ User Guide
 
-1. **Open an Image**
+* **Open Image:**
+  Use `File > Open` or press `Ctrl+O` to load your image.
 
-   * Use `File > Open` or press `Ctrl+O`
+* **Select Pixels:**
+  Click directly on the image or enter X/Y coordinates manually.
 
-2. **Select Pixels**
+* **Zoom Controls:**
+  Use the zoom buttons or mouse scroll wheel for precision navigation.
 
-   * Click on the image or manually enter coordinates under "Manual Selection"
+* **Apply RGBA Filter:**
+  Choose specific channel values and apply filters to isolate data.
 
-3. **Zooming**
-
-   * Use zoom buttons or your mouse scroll wheel
-
-4. **Apply Filter**
-
-   * Choose RGBA channels and press "Apply Filter"
-
-5. **Export Results**
-
-   * Click "Export to CSV" to save filtered data
+* **Export to CSV:**
+  Save your filtered pixel data with a single click.
 
 ---
 
-## 👨‍💻 About the Developer
+## 👨‍💻 Developer Info
 
-**Z3X (Zaid Hijazi)**
-Image analysis & computer vision tools developer.
+**Developed by:** `Z3X` (Zaid Hijazi)
+A cybersecurity student and developer focused on image analysis and computer vision tools.
 All rights reserved © 2025
 
 ---
 
+> 💡 *PixelInspector-Pro is a local-first, privacy-respecting tool — no data leaves your device.*
+
+```
+```
