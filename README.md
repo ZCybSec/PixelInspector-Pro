@@ -23,10 +23,10 @@
 - Python 3.7 or later  
 - Required libraries:
   ```bash
-  pip install PySide6 numpy
+  pip install PySide6 numpy```
 ````
 
----
+
 
 ## 🚀 How to Run
 
